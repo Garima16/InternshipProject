@@ -136,3 +136,16 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 #     from .local_settings import *
 # except ImportError:
 #     pass
+
+
+
+
+LOGIN_REDIRECT_URL = 'login_success'
+
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'shopping.chatbot@gmail.com'
+EMAIL_HOST_PASSWORD = '1234abcd@'
+EMAIL_PORT = 587
+DEFAULT_FROM_EMAIL = 'shopping.chatbot@gmail.com'
